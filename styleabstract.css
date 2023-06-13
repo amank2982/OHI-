@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 0%;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.991);
+    text-align: center;
+    text-size-adjust: 20px;
+    padding: 20px;
+    float: left;
+    font-size:20px;
+    margin: 0%;
+    font-family: sans-serif;
+    
+}
+
+nav{
+    display: flex;
+    background-color:hsl(120, 31%, 43%);
+    overflow: hidden;
+}
+nav a:hover{
+    background-color: rgb(44, 42, 42);
+    cursor: pointer;
+}
+header h2{
+
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+    font-size: 50px;
+    text-decoration:underline;
+    color: hsl(120, 31%, 43%);
+    
+}
+header button{
+    background-color:rgb(75, 143, 75);
+    border: none;
+    color:rgb(255, 255, 255);
+    padding: 22px 32px;
+    font-size: 20px;
+    text-align: center;
+    float: center;
+    border-radius: 4px;
+    }
+    button:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        cursor: pointer;
+    }
+    .btn{
+        text-align: center;  
+       position:relative;
+        top: 160%;
+        left: 50%;
+        transform: translate(-50%, -1%);
+    }
+   .t1, td{
+    text-align: center;
+    font-size: 30px;
+    border-collapse: separate;
+    padding: 10px;
+    border-spacing: 2px;
+    background-color:hsl(120, 31%, 43%);
+    margin: 4% 0px;
+    margin-left: 25%;
+    color: white;
+    border-radius: 5px;
+   }
+   footer{
+    background-color: rgb(75, 143, 75);
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+    margin: 0px;
+}
+footer h4{
+    text-align: right;
+    color: aliceblue;
+    padding: 10px;
+    margin: 0px 20px;
+    font-size: x-large;
+    bottom: 40%;
+}
+footer a{
+    text-align: right;
+    padding: 10px;
+    margin: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-size: larger;
+    float: right;
+    color: rgb(75, 143, 75);
+
+}
+footer img{
+    position: relative;
+    float: left;
+    width: 140px;
+    height: 140px;
+    left: 1%;
+}
+@media screen and (max-width:858px) {
+    nav{
+        flex-direction: column;
+    }
+    
+}
